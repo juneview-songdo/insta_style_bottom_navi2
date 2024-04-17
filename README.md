@@ -15,9 +15,9 @@
     ```
 3. start the project by entering the following command.
     ```bash
-    flutter run [execute file path here] -d chrome
+    flutter run lib/app/_/_/interaction/view.blueprint/page/insta_style_bottom_navi2/_/view.dart -d chrome
     ```
 
 ## Screenshots
-![]()
+![](https://github.com/juneview-songdo/insta_style_bottom_navi2/assets/21379657/6eddf1e8-c791-434d-bf5f-4618fef8a8e2)
 

@@ -18,38 +18,6 @@ class NewViewState extends State<NewView> with StateMother {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFFEEEEEE),
-      appBar: AppBar(
-        elevation: 1,
-        backgroundColor: Color(0xFFFFFFFF),
-        centerTitle: true,
-        title: Column(
-          children: [
-            Image.asset(
-              'assets/view/insta_style_bottom_navi2/logo.webp',
-              width: 100,
-            )
-          ],
-        ),
-        leading: IconButton(
-          onPressed: () {},
-          icon: SvgPicture.asset('assets/view/insta_style_bottom_navi2/camera.svg',
-              colorFilter: ColorFilter.mode(
-                Colors.grey.withOpacity(0.8),
-                BlendMode.srcIn,
-              )),
-        ),
-        actions: <Widget>[
-          IconButton(
-            onPressed: () {},
-            icon: SvgPicture.asset('assets/view/insta_style_bottom_navi2/send.svg',
-                colorFilter: ColorFilter.mode(
-                  Colors.grey.withOpacity(0.8),
-                  BlendMode.srcIn,
-                )),
-          ),
-        ],
-        systemOverlayStyle: SystemUiOverlayStyle.dark,
-      ),
       body: IndexedStack(
         index: _selectedIndex,
         children: [
