@@ -3,7 +3,7 @@ description: "insta style bottom navi2"
 #publish_to: 'none'
 repository: https://github.com/juneview-songdo/insta_style_bottom_navi2
 
-version: 1.0.3
+version: 1.0.4
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
